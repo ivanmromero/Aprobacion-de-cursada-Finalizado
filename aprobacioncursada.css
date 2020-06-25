@@ -1,0 +1,316 @@
+body{
+    margin:auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background: #072146;
+    min-width: 634px;
+    max-width: 634px;
+    font-family: "Source Sans";
+}
+
+header{
+    overflow: hidden;
+    height:155px; 
+    margin-bottom: 15px;
+    border: solid black; 
+    border-color:  #aeaeae;
+    border-radius: 7px;
+    border-width: 1px;
+}
+
+div#presentacion{
+    border-width: 1px;
+    background-color: #004481; 
+    border: solid black;
+    border-color: #aeaeae;
+    border-radius: 7px;
+    border-top-width: 20px;
+    margin-bottom: 15px;
+}
+
+div#evaluacion h1{
+    margin-top: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #2dcccd;
+    font-family: sans-serif;
+}
+
+div#terminos{
+    margin-left: 12px;
+    color: #ffffff;
+    margin-right: 12px;
+}
+
+div#terminos span{
+    color: #2dcccd;
+    float: left;
+    height: 20px;
+}	
+
+span#Puesto{
+    margin-left: 5px;
+    color: #ffffff;
+    font-size: 100%;
+    text-align: center;
+    text-transform: uppercase;}
+
+ span#operador{
+    margin-left: 10px;
+    font-size: 110%;
+    color: #29c2c2;
+}
+
+section#caja1 {
+    margin-top: 15px;
+    height: 250px;
+}
+
+legend{
+    padding: 0;
+}
+
+section#caja1 div.datos{
+    float: left;
+}
+
+section#caja1 div.imagen{
+    margin-top: 55px;
+    margin-right: 25px;
+    float: right;
+}
+
+section#caja1 div.datos form fieldset{
+    background: white;
+    border-radius: 7px;
+    border: solid black; 
+    border-color:  #D6DBDF;
+    text-transform: uppercase;
+    font-family: "Source Sans Pro";
+    border-top-width: 24px;
+}
+
+section#caja1 div.datos form fieldset h3{
+    margin:0;
+    background: #D6DBDF;
+    text-align: center;
+}
+
+section#caja1 div.datos form fieldset legend{
+    text-align: center;
+}
+
+section#caja1 div.datos label{
+    display: inline-block;
+      width: 120px;
+}
+
+button:hover, input#aceptar:hover{
+    background-color: #1d73b2;
+}
+
+div#advertenciadatos{
+    font-family: sans-serif;
+    margin-top: 15px;
+    margin-left: 30px;
+    color: white;
+}
+
+section#caja2{
+    display: none;
+}
+
+input{
+    font-family: "Source Sans Pro";
+    border-width: 1px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    border-color: #aeaeae;
+}
+
+input:focus{
+    box-shadow: 3px 3px 4px rgba(8, 88, 153, 0.46);
+}
+
+select{
+    border-width: 1px;
+    border-radius: 4px;
+    border-color: #aeaeae;
+}
+
+select:focus{
+    box-shadow: 3px 3px 4px rgba(8, 88, 153, 0.46);
+}
+
+div.Pregunta{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+div.Pregunta form fieldset{
+    background-color: white;
+    border: solid black; 
+    border-color:  #D6DBDF;
+    border-top-width: 19px;
+    border-radius: 7px;
+}
+
+div.Pregunta form fieldset:hover{
+    -webkit-box-shadow: 2px 2px 35px -8px rgba(255,255,255,1);
+    -moz-box-shadow: 2px 2px 35px -8px rgba(255,255,255,1);
+    box-shadow: 2px 2px 35px -8px rgba(255,255,255,1);
+}
+
+div.Pregunta fieldset legend.legend{
+    text-align: right;
+    text-transform: uppercase;
+    background-color: #D6DBDF;
+    font-family: verdana;
+}
+
+div.Pregunta form fieldset div.titulo span{
+    float: left;
+    color: #2dcccd;
+    font-size: 140%;
+    height: 50px;
+}
+
+div.Pregunta form fieldset div.titulo p{
+    color: #1d73b2;
+    font-size: 115%;
+    margin-top: 10px;	
+}
+
+div.Pregunta form fieldset div.input label{
+    font-size: 90%;
+}
+
+div.Pregunta form fieldset div.input span{
+    font-size: 90%;
+}
+
+div.input{
+    margin-left: 13px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+form div.input span{
+    margin-left: 10px;
+}
+
+form#pregunta1 label , form#pregunta4 label, form#pregunta7 label , form#pregunta10 label{
+    display: inline-block;
+      width: 70px;
+}
+
+form#pregunta4 input, form#pregunta7 input{
+      width: 270px;
+      text-align: center;
+}
+
+form#pregunta10 input{
+      width: 50px;
+}
+
+form#pregunta3 div.input input, form#pregunta5 div.input input{
+    float: left;
+}
+
+form#pregunta3 div.input span, form#pregunta5 div.input span{
+    display: block;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+form#pregunta6 div.input label, form#pregunta9 div.input label{
+    display: inline-block;
+      width: 280px;
+}
+
+form#pregunta6 div.input select , form#pregunta9 div.input select{
+    text-align-last: center;
+      width: 150px;
+}
+
+div#validar{
+    text-align: center;
+}
+
+div#validar button{
+    width: 30%;
+    font-size: 110%;
+    text-transform: uppercase;
+    border-radius: 4px;
+    border-color: #aeaeae;
+}
+
+div#validar button:focus{
+    box-shadow: 3px 3px 4px rgb(253, 253, 253);
+}
+
+div#resultado{
+    display: none;
+    background-image: url("felicidades.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: solid black; 
+    border-color:  #D6DBDF;
+    text-transform: uppercase;
+    font-size: 130%;
+    font-family: "Source Sans Pro";
+    display: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    border-radius: 15px;
+    padding-bottom: 10px;
+}
+
+footer{
+    margin-top: 15px;
+}
+
+footer div#footer{
+    height: 175px;
+    overflow: hidden;
+}
+
+footer div#footer a{
+    float: right;
+}
+
+footer div#footer ul{
+    font-family: "Source Sans Pro";
+    float: left;
+    color: #29c2c2;
+    margin-top: auto;
+}
+
+footer div#footer li{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+footer div#footer li a{
+    float: left;
+    color: #29c2c2;
+    text-decoration: none;
+}
+
+footer div#footer li a:hover{
+    color: #ffffff;
+}
+
+span#izquierdo{
+    text-align: left;
+    color: #aeaeae;
+}
+
+span#derecho{
+    margin-right: 75px;
+    float: right;
+    color: #ffffff;
+}

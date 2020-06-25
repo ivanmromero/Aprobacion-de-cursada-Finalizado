@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta  charset="utf-8"/>
+	<title>Aprobacion cursada</title>
+	<link rel="stylesheet" type="text/css" href="aprobacioncursada.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:100,300,400,700&display=swap" rel="stylesheet">
+		
+</head>
+	<body>
+		<header><a href="https://www.bbva.com.ar/"><img src="BBVALOGO.jpg" alt="BBVA"></a></header>
+
+		<div id="presentacion">
+
+			<div id="evaluacion">
+				<h1><u>evaluación integral conceptual</u></h1>
+			</div>
+
+			<div id="terminos">
+				<span>*</span><p><em> La siguiente evaluación se tomará para medir los conocimientos del futuro operador en base a la capacitación que ya ha sido brindada. </em></p>
+				<span>*</span><p><em> La misma constara de 10 preguntas con un valor de 1 punto por cada una respondida correctamente. </em></p>
+				<span>*</span><p><em> Para poder aprobar el operador deberá contestar al menos 7 preguntas de manera correcta.</em></p>
+			</div>
+
+		</div>
+		
+
+		<span id="Puesto">Puesto:</span><span id="operador"><em>"Operador telemarketer Junior"</em></span>
+		
+		<section id="caja1">
+				<div class="datos">
+					<form>
+						<fieldset>
+
+							<legend><h3>Ingrese sus datos:</h3></legend>
+							<br>
+
+							<label for="nom">Nombre:</label>
+							<input type="text" name="nom" id="nom" maxlength="25" />
+							<br><br>
+
+							<label for="ape">Apellido:</label>
+							<input type="text" name="ape" id="ape" maxlength="25" />
+							<br><br>
+
+							<label for="dni">DNI:</label>
+							<input type="text" id="dni" maxlength="8" />
+							<br><br>
+
+							<label for="mail">Mail:</label>
+							<input type="email" name="mail" id="mail" maxlength="40" />
+							<br><br>
+
+							<input type="button" id="aceptar" value="Aceptar"/>
+						
+						</fieldset>
+					</form>
+				</div>
+
+				<div class="imagen">
+					<img src="BBVA.png" alt="BBVA"/>
+				</div>		
+
+		</section>
+
+			<div id="advertenciadatos"></div>	
+			
+			<section id="caja2">
+
+			<div class="Pregunta" >
+				<form id="pregunta1">
+					<fieldset id="preg1">
+
+						<legend class="legend">-1-</legend>
+
+						<div class="titulo">
+							<span>*</span>	<p><strong><em>Cuando fue fundado BBVA?</em></strong></p>
+						</div>
+
+						<div class="input">
+							<label for="fecha">fecha:</label><input type="date" name="fecha" id="fecha" min="1998-01-01" max="2020-12-31"/>
+						</div>
+
+					</fieldset>
+				</form>
+			</div>
+
+			<div class="Pregunta" >
+				<form id="pregunta2">
+					<fieldset id="preg2">
+						<legend class="legend">-2-</legend>
+
+						<div class="titulo">
+							<span>*</span>	<p><strong><em>Cuales son los 3 principales valores corporativos de BBVA?</em></strong></p>
+						</div>
+						
+						<div class="input">
+							<input type="checkbox" name="c1" id="c1" />
+							<span>somos un solo equipo. </span>
+							<br><br>
+
+							<input type="checkbox" name="c2" id="c2" />
+							<span>Ser muy bueno no basta.</span>
+							<br><br>
+
+							<input type="checkbox" name="c3" id="c3" />
+							<span>el cliente nuestro compromiso.</span>
+							<br><br>
+
+							<input type="checkbox" name="c4" id="c4" />
+							<span>el cliente es lo primero.</span>
+							<br><br>
+
+							<input type="checkbox" name="c5" id="c5" />
+							<span>pensamos en grande.</span>
+						</div>
+
+					</fieldset>
+				</form>
+			</div>
+
+			<div class="Pregunta" >
+				<form id="pregunta3">
+					<fieldset id="preg3">
+
+						<legend class="legend">-3-</legend>
+
+						<div class="titulo">
+							<span>*</span>	<p><strong><em>A qué se refiere cuando una persona es políticamente expuesta?</em></strong></p>
+						</div>
+
+						<div class="input">
+							<input type="radio" name="radio" id="r1">
+							<span>A todas aquellas personas con ideales políticos.</span>
+							<br><br>
+
+							<input type="radio" name="radio" id="r2">
+							<span>A todas aquellas personas que están en la actividad política o que algún familiar de hasta tercer grado de consanguinidad en línea ascendente, descendente o colateral está en la actividad política.</span>
+							<br><br>
+
+							<input type="radio" name="radio" id="r3">
+							<span>A todas aquellas personas que son participes de grupos políticos.</span>
+						</div>
+
+					</fieldset>
+				</form>
+			</div>
+
+			<div class="Pregunta" >
+				<form id="pregunta4">
+					<fieldset id="preg4">
+
+						<legend class="legend">-4-</legend>
+
+						<div class="titulo">
+							<span>*</span>	<p><strong><em>Que significan las siglas UIF? </em></strong></p>
+						</div>
+
+						<div class="input">
+							<label for="UIF">UIF:</label><input type="text" name="UIF" id="UIF" />
+						</div>
+
+					</fieldset>
+				</form>
+			</div>
+
+			<div class="Pregunta" >
+				<form id="pregunta5">
+					<fieldset id="preg5">
+						<legend class="legend">-5-</legend>
+
+						<div class="titulo">
+							<span>*</span><p><strong><em>A qué se refiere cuando una persona es un sujeto obligado ante la UIF?</em></strong></p>
+						</div>
+
+						<div class="input">
+
+							<input type="radio" name="rad" id="r4">
+							<span>A todas aquellas personas que deben presentar sus ingresos ante esta entidad por poder ser sospechosos de lavados de activos o financiamiento del terrorismo. </span>
+							<br><br>
+
+							<input type="radio" name="rad" id="r5">
+							<span>A todas aquellas personas que deben presentar sus declaraciones juradas de ganancias para corroborar sus balances generales. </span>
+							<br><br>
+
+							<input type="radio" name="rad" id="6">
+							<span>A todas aquellas personas que son participes de fondos comunes de inversion.</span>
+
+						</div>
+
+					</fieldset>
+				</form>
+			</div>
+
+			<div class="Pregunta" >
+				<form id="pregunta6">
+					<fieldset id="preg6">
+
+						<legend class="legend">-6-</legend>
+
+						<div class="titulo">
+							<span>*</span>	<p><strong><em>Indique para cada categoría de tarjeta de crédito cual es limite mínimo que se puede otorgar?</em></strong></p>
+						</div>
+						
+						<div class="input">
+							<label>Visa/master Internacional:</label>
+							<select id="s1" name="s1">
+								<option>..........</option>
+								<option value="5000">5000</option>
+								<option value="10000">10000</option>
+								<option value="15000">15000</option>
+							</select>
+							<br><br>
+
+							<label>Visa/Master Gold:</label>
+							<select id="s2" name="s2">
+								<option>..........</option>
+								<option value="45000">45000</option>
+								<option value="50000">50000</option>
+								<option value="60000">60000</option>
+							</select>
+							<br><br>
+
+							<label>Visa/Master Platinum:</label>
+							<select id="s3" name="s3">
+								<option>..........</option>
+								<option value="80000">80000</option>
+								<option value="100000">100000</option>
+								<option value="125000">125000</option>
+							</select>
+							<br><br>
+
+							<label>Visa/Master Signature/Black:</label>
+							<select id="s4" name="s4">
+								<option>..........</option>
+								<option value="125000">125000</option>
+								<option value="175000">175000</option>
+								<option value="250000">250000</option>
+							</select>
+						</div>
+
+					</fieldset>
+				</form>
+			</div>
+
+			<div class="Pregunta" >
+				<form id="pregunta7">
+
+					<fieldset id="preg7">
+						<legend class="legend">-7-</legend>
+						
+						<div class="titulo">
+							<span>*</span>	<p><strong><em>Que significan las siglas BBVA? </em></strong></p>
+						</div>
+
+						<div class="input">
+							<label for="BBVA">BBVA:</label><input type="text" name="BBVA" id="BBVA" />
+						</div>
+
+					</fieldset>
+				</form>
+			</div>
+
+			<div class="Pregunta" >
+				<form id="pregunta8">
+					<fieldset id="preg8">
+
+						<legend class="legend">-8-</legend>
+
+						<div class="titulo">
+							<span>*</span>	<p><strong><em>Cual es el puntaje mínimo y máximo que puede tener un cliente en el veraz para poder otorgarle un producto crediticio? </em></strong></p>
+						</div>
+
+						<div class="input">
+							<input type="checkbox" name="c6" id="c6"/>
+							<span>50</span>
+							<br><br>
+							<input type="checkbox" name="c7" id="c7"/>
+							<span>250</span>
+							<br><br>
+							<input type="checkbox" name="c8" id="c8"/>
+							<span>450</span>
+							<br><br>
+							<input type="checkbox" name="c9" id="c9"/>
+							<span>500</span>
+							<br><br>
+							<input type="checkbox" name="c10" id="c10"/>
+							<span>800</span>
+						</div>
+
+					</fieldset>
+				</form>
+			</div>
+
+			<div class="Pregunta" >
+				<form id="pregunta9">
+					<fieldset id="preg9">
+
+						<legend class="legend">-9-</legend>
+
+						<div class="titulo">
+							<span>*</span>	<p><strong><em>Arme el mejor paquete de productos para un cliente que dispone de un límite pre-aprobado de 250000 para tarjetas y 18000 de acuerdo de giro en descubierto en Cuenta Corriente</em></strong></p>
+						</div>
+						
+						<div class="input">
+							<label>Paquete de cuentas:</label>
+							<select id="s5" name="s5">
+								<option>..........</option>
+								<option value="express">EXPRESS</option>
+								<option value="plus">PLUS GOLD</option>
+								<option value="full">FULL</option>
+								<option value="premium">PREMIUM</option>
+								<option value="world">PREMIUM WORLD</option>
+							</select>
+							<br><br>
+
+							<label>Caja de ahorro en euros:</label>
+							<select id="s6" name="s6">
+								<option>..........</option>
+								<option value="SI">SI</option>
+								<option value="NO">NO</option>
+							</select>
+							<br><br>
+
+							<label>Caja de ahorro en dólares:</label>
+							<select id="s7" name="s7">
+								<option>..........</option>
+								<option value="SI">SI</option>
+								<option value="NO">NO</option>
+							</select>
+							<br><br>
+
+							<label>Cuenta Corriente:</label>
+							<select id="s8" name="s8">
+								<option>..........</option>
+								<option value="SI">SI</option>
+								<option value="NO">NO</option>
+							</select>
+							<br><br>
+
+							<label>Tarjeta Visa/Master:</label>
+							<select id="s9" name="s9">
+								<option>..........</option>
+								<option value="NO">NO</option>
+								<option value="Internacional">INTERNACIONAL</option>
+								<option value="Gold">GOLD</option>
+								<option value="Platinum">PLATINUM</option>
+								<option value="Signature">SIGNATURE/BLACK</option>
+							</select>
+						</div>
+
+					</fieldset>
+				</form>
+			</div>
+
+			<div class="Pregunta" >
+				<form id="pregunta10">
+					<fieldset id="preg10">
+
+						<legend class="legend">-10-</legend>
+
+						<div class="titulo">
+							<span>*</span>	<p><strong><em>Indique cual es la comision de manteniento mensual de un paquete Plus Gold?</em></strong></p>
+						</div>
+
+						<div class="input">
+							<input type="text" name="comision" id="comision" maxlength="4" />
+							<label for="comision">+IVA+IMPUESTOS.</label>
+						</div>
+
+					</fieldset>
+				</form>
+			</div>
+
+			<div id="validar">
+				<button id="finalizar">FINALIZAR</button>	
+			</div>
+			
+		</section>
+		
+		<div id="resultado"></div>
+
+		<hr>
+
+		<footer>
+			<div id="footer">
+				
+				<ul>
+					<li><a href="https://www.bbva.com.ar/personas/aviso-legal.html">Aviso Legal</a></li>
+					<li><a href="https://www.facebook.com/bbva.argentina/?brand_redir=152306641494958">Facebook</a></li>
+					<li><a href="https://www.instagram.com/bbva_argentina/?hl=es">Instagram</a></li>
+					<li><a href="https://twitter.com/bbva_argentina?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Twitter</a></li>
+				</ul>
+
+				<a href="https://www.bbva.com.ar/"><img src="yomequedoencasabbva.jpg" alt="yomequedoencasa"/></a>
+
+			</div>
+		</footer>
+
+		<span id="izquierdo">&copy; 2020 Banco BBVA Argentina S.A. </span>
+		<span id="derecho">Creando Oportunidades</span>
+
+		<script type="text/javascript" src="aprobacioncursada.js"></script>
+	</body>
+</html>
